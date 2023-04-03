@@ -13,7 +13,7 @@ pipeline {
             }
         }
     }
-    stages {
+   
         stage('Test') {
             when {
               expression {
@@ -22,7 +22,7 @@ pipeline {
             }
             steps {
                echo 'success'
-            }
+            
         }
     }
 }
